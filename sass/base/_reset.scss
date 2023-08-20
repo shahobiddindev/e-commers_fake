@@ -1,0 +1,36 @@
+* {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
+ body{
+  font-family: "Rubik", sans-serif;
+ }
+ 
+ ul {
+   list-style-type: none;
+ }
+ 
+ button {
+   cursor: pointer;
+   border: none;
+ }
+ 
+ input:focus {
+   outline: none;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+
+ .container{
+  max-width: 1200px;
+  padding: 0 4px;
+  margin: 0 auto;
+ }
